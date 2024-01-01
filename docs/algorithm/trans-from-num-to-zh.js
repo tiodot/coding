@@ -41,7 +41,7 @@ function trans(number) {
     const segment = transNumToZh(numStr.slice(Math.max(0, i - 4), i));
     // 加入计算的单位，因为 i 从 len开始计算，(len - i) / 4 表示 for 渲染执行的第几次，
     // 第 0 次是最后 4 位，第 1 次是倒数第 4 位 ～ 第 8 位对应单位为万
-    res.unshift(numSection[(len - i) / 4]);
+    segment && res.unshift(numSection[(len - i) / 4]);
     res.unshift(segment);
   }
   return res.join('');
