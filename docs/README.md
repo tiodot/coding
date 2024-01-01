@@ -9,3 +9,4 @@
 
 ## JS实现
 1. [模拟实现bind](./utils/实现bind.md)
+2. [批量请求](./utils/批量请求.md)
