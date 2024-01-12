@@ -7,6 +7,8 @@
 2. [数组转树状结构](./algorithm/数组转树状结构.md)
 2. [树状结构转数组](./algorithm/树状结构转数组.md)
 3. [压缩字符串](./algorithm//统计字符重复次数.md)
+3. [小顶堆](./algorithm/小顶堆.md)
+3. [根据运算符优先级添加括号](./algorithm/根据运算优先级添加括号.md)
 
 ## JS实现
 1. [模拟实现bind](./utils/实现bind.md)
