@@ -4,10 +4,12 @@ import path from 'node:path';
 
 const getSidebarByDir = () => {
   const dirConfig = [
+    {text: '首页', link: '/'},
     {text: '算法相关', dir: 'algorithm'}, 
     {text: '前端 Coding', dir: 'utils'}
   ]
   return dirConfig.map(config => {
+    if (!config.dir) return config;
     const files = fs.readdirSync(path.resolve(__dirname, '..', config.dir));
     console.log(files);
     const filePath = files.filter(file => file.endsWith('.md')).map(name => `/${config.dir}/${name}`);
