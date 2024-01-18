@@ -15,4 +15,6 @@
 
 1. [模拟实现bind](./utils/实现bind.md)
 2. [批量请求](./utils/批量请求.md)
+3. [bind函数](./utils/实现bind.md)
 3. [连续请求](./utils/连续请求.md)
+3. [带占位符的柯里化](./utils/带占位符的柯里化.md)
