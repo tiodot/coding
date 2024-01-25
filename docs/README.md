@@ -20,3 +20,4 @@
 3. [连续请求](./utils/连续请求.md)
 3. [带占位符的柯里化](./utils/带占位符的柯里化.md)
 3. [请求重试](./utils/请求重试.md)
+3. [LazyMan](./utils/LazyMan.md)
